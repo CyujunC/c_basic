@@ -11,5 +11,15 @@
  *   4.예약어는 사용 불가
  *     - 예약어란 프로그래밍 언어에서 이미 사용하고 있는 이름
  *     - 예: const, unsigned, char, int, long 등등 
+ *
+ *  표기법
+ *   - 합성어 예: 학생 이름 변수
+ *     studentlastname   (가독성 X)
  * 
+ *  1.파스칼 표기법
+ *   StudentLastName
+ *  2.카멜 표기법
+ *   studentLastName
+ *  3.스네이크 표기법
+ *   student_last_name 
 */
