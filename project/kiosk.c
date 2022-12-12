@@ -16,6 +16,7 @@ char *menu_save[3] = {};   // 주문 메뉴
 int price_save[3] = {};    // 주문 가격
 
 void print_main_menu(void);
+void print_order(void);
 
 int main() {
     // 1.메인 메뉴 출력
@@ -64,7 +65,7 @@ void print_main_menu(void) {
     puts("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
     puts("■ cnu 버거 2022");
     puts("■  - version 1.0");
-    puts("■  - develop by yujun");
+    puts("■  - developed by yujun");
     puts("■  - date 2022.12.07");
     puts("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
     puts("■ 저희 매장을 찾아주셔서 감사합니다.");
@@ -76,4 +77,20 @@ void print_main_menu(void) {
     puts("■ 4.드링크 메뉴");  // 음료
     puts("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
 }
+
+// 1.햄버거 주문
+int choice_burger(void) {
+
+}
+// 2.사이드 주문
+int choice_side(void) {
+
+}
+// 3.츠링크 주문
+int cnoice_drink(void) {
+
+}
+
+ 
+
 }
